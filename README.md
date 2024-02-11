@@ -8,6 +8,6 @@ I only considered two features for classification: the user's profile descriptio
 
 The model I used was the scikit-learn Gaussian Naive Bayes classifier, which was trained with a 5-fold cross validation. Data was split for 90% training and 10% testing data.
 
-When run on the testing dataset, the model had an accuracy of 48%. Displayed below is the confusion matrix showing the results of running the model on the testing data.
+When run on the testing dataset, the model had an accuracy of 48%, which is better than guessing. Displayed below is the confusion matrix showing the results of running the model on the testing data.
 
 ![confusion matrix](./images/confusion_matrix.png)
